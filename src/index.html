@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>AirQua Terminal Firmware Uploader</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+        <script src="render.js" defer></script>
+    </head>
+    <body>
+        <span>Токен устройства из личного кабинета</span>
+        <div class="input">
+            <input type="text" id="airqua_token">
+        </div>
+        <span>Идентификатор устройства из личного кабинета</span>
+        <div class="input">
+            <input type="number" id="airqua_id">
+        </div>
+        <div class="button">
+            <button id="airqua_submit">Прошить</button>
+        </div>
+        <div class="textarea">
+            <textarea id="airqua_log" readonly></textarea>
+        </div>
+    </body>
+</html>
